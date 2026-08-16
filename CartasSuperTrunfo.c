@@ -4,6 +4,7 @@
 // Tema 1 - Cadastro das cartas
 // Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
 // Organização da cartas.
+// Eu criei manualmente cada carta no bloco de notas e depois lancei aqui para facilitar meus estudos.
 /*
 Organização das Cartas referentes ao Brasil
 ESTADO A — SÃO PAULO
@@ -56,9 +57,20 @@ H04 - Pelotas
 */
 
 int main() {
+  
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
+char estado1;     // Nome de cada estado selecionado
+char codigo1[4];  // Código de cada cidade
+char cidade1[50]; // Nome de cada cidade
+int populacao1;   // População de cada cidade (segundo IBGE)
+float area1;      // Área total de cada cidade (segundo IBGE)
+float pib1;       // PIB de cada cidade (segundo IBGE)
+int pontosTuristicos1;  // Quantidade de pontos turísticos (média)
+
   // Área para entrada de dados
+
+  
 
   // Área para exibição dos dados da cidade
 
