@@ -158,5 +158,42 @@ printf("Quantidade Aproximada de Pontos Turísticos: %d\n\n", pontosTuristicos2)
 
 printf("Densidade Populacional: %.2f hab/km2\n", densidadePopulacional2);
 printf("PIB per Capita: R$ %.2f\n", pibPerCapita2);
+
+// DESAFIO MESTRE
+
+// Comparação entre POPULAÇÕES
+
+printf("Populacao: %d\n\n", populacao1 > populacao2);
+
+// Comparação entre ÁREAS
+
+printf("Área: %d\n\n", area1 > area2);
+
+// Comparação entre PIBs
+
+printf("PIB: %d\n\n", pib1 > pib2);
+
+// Comparação entre PONTOS TURÍSTICOS
+
+printf("Pontos Turísticos: %d\n\n", pontosTuristicos1 > pontosTuristicos2);
+
+// Comparação entre DESNIDADES POPULACIONAIS
+
+printf("Densidade Populacional: %d\n\n", densidadePopulacional1 < densidadePopulacional2);
+
+
+// SUPERPODER
+
+double superPoder1;
+double superPoder2;
+
+superPoder1 = populacao1 + area1 + pib1 + pontosTuristicos1;
+superPoder2 = populacao2 + area2 + pib2 + pontosTuristicos2;
+
+printf("Super Poder Carta 1: %.2f\n", superPoder1);
+printf("Super Poder Carta 2: %.2f\n", superPoder2);
+
+printf("Super Poder: %d\n\n", superPoder1 > superPoder2);
+
 return 0;
 } 
