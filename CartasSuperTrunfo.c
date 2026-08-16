@@ -94,11 +94,11 @@ float pibPerCapita1, pibPerCapita2; //PIB per catpa da cidade
     scanf("%f", &pib1);
 
     printf("Digite a quantidade de pontos turísticos: ");
-    scanf("%d", &pontosTuristicos1);
+    scanf("%d", &pontosTuristicos1);; 
 
   // Área para entrada de dados da Carta 
 
-    printf("... CADASTRO DA CARTA 2 ...\n\n");
+    printf("\n\n... CADASTRO DA CARTA 2 ...\n\n");
 
     printf("Digite o código do estado: ");
     scanf(" %c", &estado2);
@@ -130,7 +130,7 @@ densidadePopulacional2 = populacao2 / area2;
 pibPerCapita2 = (pib2 * 1000000.0) / populacao2;
 
   // Área para exibição dos dados da cidade
-printf("\n... CARTA 1 ...\n");
+printf("\n\n... CARTA 1 ...\n\n");
 
 printf("Estado: %c\n", estado1);
 printf("Código da Cidade: %s\n", codigo1);
@@ -138,9 +138,13 @@ printf("Nome da Cidade: %s\n", cidade1);
 printf("Populacao: %d habitantes\n", populacao1);
 printf("Área: %.2f km2\n", area1);
 printf("PIB: %.2f bilhoes de reais\n", pib1);
-printf("Quantidade Aproximada de Pontos Turísticos: %d\n", pontosTuristicos1);
+printf("Quantidade Aproximada de Pontos Turísticos: %d\n\n", pontosTuristicos1);
+//Apresentação dos valores calculados (desafio Aventureiro)
 
-printf("\n... CARTA 2 ...\n");
+printf("Densidade Populacional: %.2f hab/km2\n", densidadePopulacional1);
+printf("PIB per Capita: R$ %.2f\n", pibPerCapita1);
+
+printf("\n\n... CARTA 2 ...\n\n");
 
 printf("Estado: %c\n", estado2);
 printf("Código da Cidade: %s\n", codigo2);
@@ -152,8 +156,6 @@ printf("Quantidade Aproximada de Pontos Turísticos: %d\n", pontosTuristicos2);
 
 //Apresentação dos valores calculados (desafio Aventureiro)
 
-printf("Densidade Populacional: %.2f hab/km2\n", densidadePopulacional1);
-printf("PIB per Capita: R$ %.2f\n", pibPerCapita1);
 printf("Densidade Populacional: %.2f hab/km2\n", densidadePopulacional2);
 printf("PIB per Capita: R$ %.2f\n", pibPerCapita2);
 return 0;
