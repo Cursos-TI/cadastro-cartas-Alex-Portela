@@ -152,7 +152,7 @@ printf("Nome da Cidade: %s\n", cidade2);
 printf("Populacao: %d habitantes\n", populacao2);
 printf("Área: %.2f km2\n", area2);
 printf("PIB: %.2f bilhoes de reais\n", pib2);
-printf("Quantidade Aproximada de Pontos Turísticos: %d\n", pontosTuristicos2);
+printf("Quantidade Aproximada de Pontos Turísticos: %d\n\n", pontosTuristicos2);
 
 //Apresentação dos valores calculados (desafio Aventureiro)
 
