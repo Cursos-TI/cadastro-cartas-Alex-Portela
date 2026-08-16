@@ -94,7 +94,15 @@ int pontosTuristicos1;  // Quantidade de pontos turísticos (média)
     scanf("%d", &pontosTuristicos1);
 
   // Área para exibição dos dados da cidade
+printf("\n=== CARTA 1 ===\n");
 
+printf("Estado: %c\n", estado1);
+printf("Código da Cidade: %s\n", codigo1);
+printf("Nome da Cidade: %s\n", cidade1);
+printf("Populacao: %d habitantes\n", populacao1);
+printf("Área: %.2f km2\n", area1);
+printf("PIB: %.2f bilhoes de reais\n", pib1);
+printf("Quantidade Aproximada de Pontos Turísticos: %d\n", pontosTuristicos1);
 
 
 return 0;
