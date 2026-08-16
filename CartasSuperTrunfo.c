@@ -67,6 +67,9 @@ int populacao1, populacao2 ;   // População de cada cidade (segundo IBGE)
 float area1, area2;      // Área total de cada cidade (segundo IBGE)
 float pib1, pib2;       // PIB de cada cidade (segundo IBGE)
 int pontosTuristicos1, pontosTuristicos2;  // Quantidade de pontos turísticos (média)
+// Variáveis calculadas autoamticamente para desafio AVENTUREIRO
+float densidadePopulacional1, densidadePopulacional2; // Densidade populacional da cidade
+float pibPerCapita1, pibPerCapita2; //PIB per catpa da cidade
 
   // Área para entrada de dados da Carta 1
 
@@ -118,6 +121,13 @@ int pontosTuristicos1, pontosTuristicos2;  // Quantidade de pontos turísticos (
     printf("Digite a quantidade de pontos turísticos: ");
     scanf("%d", &pontosTuristicos2);
 
+// Cálculos da Carta 1
+densidadePopulacional1 = populacao1 / area1;
+pibPerCapita1 = (pib1 * 1000000.0) / populacao1;
+
+// Cálculos da Carta 2
+densidadePopulacional2 = populacao2 / area2;
+pibPerCapita2 = (pib2 * 1000000.0) / populacao2;
 
   // Área para exibição dos dados da cidade
 printf("\n... CARTA 1 ...\n");
@@ -139,6 +149,7 @@ printf("Populacao: %d habitantes\n", populacao2);
 printf("Área: %.2f km2\n", area2);
 printf("PIB: %.2f bilhoes de reais\n", pib2);
 printf("Quantidade Aproximada de Pontos Turísticos: %d\n", pontosTuristicos2);
+
 
 return 0;
 } 
