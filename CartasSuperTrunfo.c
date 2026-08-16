@@ -70,9 +70,32 @@ int pontosTuristicos1;  // Quantidade de pontos turísticos (média)
 
   // Área para entrada de dados
 
-  
+    printf("... CADASTRO DA CARTA 1 ...\n");
+
+    printf("Digite o estado: ");
+    scanf(" %c", &estado1);
+
+    printf("Digite o codigo da carta: ");
+    scanf("%3s", codigo1);
+
+    printf("Digite o nome da cidade: ");
+    scanf(" %49[^\n]", cidade1);
+
+    printf("Digite a populacao: ");
+    scanf("%d", &populacao1);
+
+    printf("Digite a area em km2: ");
+    scanf("%f", &area1);
+
+    printf("Digite o PIB em bilhoes de reais: ");
+    scanf("%f", &pib1);
+
+    printf("Digite o numero de pontos turisticos: ");
+    scanf("%d", &pontosTuristicos1);
 
   // Área para exibição dos dados da cidade
+
+  
 
 return 0;
 } 
