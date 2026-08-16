@@ -5,7 +5,7 @@
 // Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
 // Organização da cartas.
 /*
-Organização das Cartas refrentes ao Brasil
+Organização das Cartas referentes ao Brasil
 ESTADO A — SÃO PAULO
 A01 - São Paulo
 A02 - Campinas
