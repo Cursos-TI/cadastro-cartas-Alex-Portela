@@ -150,6 +150,11 @@ printf("Área: %.2f km2\n", area2);
 printf("PIB: %.2f bilhoes de reais\n", pib2);
 printf("Quantidade Aproximada de Pontos Turísticos: %d\n", pontosTuristicos2);
 
+//Apresentação dos valores calculados (desafio Aventureiro)
 
+printf("Densidade Populacional: %.2f hab/km2\n", densidadePopulacional1);
+printf("PIB per Capita: R$ %.2f\n", pibPerCapita1);
+printf("Densidade Populacional: %.2f hab/km2\n", densidadePopulacional2);
+printf("PIB per Capita: R$ %.2f\n", pibPerCapita2);
 return 0;
 } 
